@@ -1,0 +1,103 @@
+/* Here goes your CSS */
+
+/* Here goes your CSS */
+
+body {
+  background: #FAFAFA;
+  font-family : 'Lora';
+  font-size : 15px;
+  color : #222222;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+background: #EFEFEF;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 4px;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px black;
+}
+
+.img-circle {
+  border-radius: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+h1
+{
+  font-family : 'Open sans';
+  font-size : 30px;
+  font-weight: bold;
+  line-height : 1.6em;
+  color: #F95759 ;
+}
+
+
+h2 {
+  font-family : 'Open sans';
+  font-size : 22px;
+  line-height : 1.6em;
+  color: #333333 ;
+}
+
+h3 {
+  font-family : 'Open sans';
+  font-size : 20px;
+  line-height : 1.6em;
+  color: #2D5DCC ;
+}
+
+
+
+#button{
+  color : white ;
+  text-decoration : underline ;
+  font-family : 'Open sans';
+}
+
+#link:hover {
+  color : #489FDF ;
+  font-size: 20px;
+}
+
+#img-profile:hover {
+   moz-box-shadow: 0 0 10px #ccc;
+    webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#icon {
+  font-size : 32px;
+  color: #1A8E68;
+}
